@@ -10,5 +10,7 @@ Here is list I need to add
 3. add led as headlights
 4. add rpi camera
 
+Model of Raspberry Pi:
+Raspberry model B Rev 2 with latest wheezy
 
 If you have any trouble, you can reach out to me, and I will do my best to help.
