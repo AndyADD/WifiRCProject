@@ -53,7 +53,7 @@ public class rcControlPanel extends JFrame{
 				Integer int_Key_Value = Integer.valueOf(key_Code);
 				
 				if(pressedKeys.contains(int_Key_Value)){
-					
+					//This is here to prevent sending multiple packets, and causing RC car to stutter
 				}
 				else{
 					switch(e.getKeyCode()){
@@ -166,6 +166,9 @@ public class rcControlPanel extends JFrame{
 					rcControlPanel window = new rcControlPanel();
 					window.frame.setVisible(true);
 					
+					//Replace the 192.168.42.1 with YOUR Raspberry pi IP Address.
+					//You can chage port (15000) to different once if you like, just remember
+					//to change it on rpi_Server file, too.
 					Socket rc_Socket = new Socket("192.168.42.1", 15000);
 					rc_DOS = new DataOutputStream(rc_Socket.getOutputStream());
 					
