@@ -1,7 +1,7 @@
 Hello everyone.
 
 This program is barebones, just a proof of concept that it works, if you're working on a similar project, and new to all of this, hopefully my
-repo will b useful for you.
+repo will be useful for you.
 
 
 Here is list I need to add
